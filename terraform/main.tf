@@ -13,7 +13,7 @@ provider "google" {
 }
 
 resource "google_cloud_run_v2_service" "demo" {
-  name     = "demo-cloudrun"
+  name     = "demo-cloudrun-v2"
   location = "us-central1"
 
   deletion_protection = false
